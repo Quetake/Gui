@@ -6,14 +6,19 @@
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
+local optionbackround = Instance.new("TextLabel")
+local guis = Instance.new("TextButton")
+local others = Instance.new("TextButton")
 local mainbackround = Instance.new("TextLabel")
 local scriptinput = Instance.new("ScrollingFrame")
+local scriptinput2 = Instance.new("ScrollingFrame")
 local UIGridLayout = Instance.new("UIGridLayout")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
 local close = Instance.new("TextButton")
 local open = Instance.new("Frame")
 local openbutton = Instance.new("TextButton")
 
---BUTTONS
+--BUTTONS GUIS
 local Bloxfruit = Instance.new("TextButton")
 local Shindolife = Instance.new("TextButton")
 local Kinglegacy = Instance.new("TextButton")
@@ -25,6 +30,8 @@ local TOH = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
 local Ysz = Instance.new("TextButton")
 
+-- BUTTONS OTHERS
+local keyboard = Instance.new("TextButton")
 
 --UICorners
 local UICorner = Instance.new("UICorner")
@@ -42,6 +49,9 @@ local UICorner_12 = Instance.new("UICorner")
 local UICorner_13 = Instance.new("UICorner")
 local UICorner_14 = Instance.new("UICorner")
 local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 
 
 --Properties:
@@ -77,9 +87,61 @@ UICorner_2.Parent = TextLabel
 
 UICorner_3.Parent = TextLabel
 
+optionbackround.Parent = main
+optionbackround.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+optionbackround.BorderColor3 = Color3.fromRGB(11, 18, 22)
+optionbackround.Position = UDim2.new(0.716, 0,0.144, 0)
+optionbackround.Size = UDim2.new(0, 80, 0, 191)
+optionbackround.Font = Enum.Font.FredokaOne
+optionbackround.Text = ""
+optionbackround.TextColor3 = Color3.fromRGB(171, 171, 171)
+optionbackround.TextScaled = true
+optionbackround.TextSize = 14.000
+optionbackround.TextWrapped = true
+
+UICorner_16.Parent = optionbackround
+
+guis.Parent = optionbackround
+guis.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+guis.BorderColor3 = Color3.fromRGB(81, 127, 159)
+guis.BorderSizePixel = 2
+guis.Position = UDim2.new(0.111, 0,0.034, 0)
+guis.Size = UDim2.new(0, 62, 0, 29)
+guis.Font = Enum.Font.FredokaOne
+guis.Text = "Guis"
+guis.TextColor3 = Color3.fromRGB(154, 154, 154)
+guis.TextScaled = true
+guis.TextSize = 14.000
+guis.TextWrapped = true
+guis.MouseButton1Down:connect(function()
+others.BorderSizePixel = 0
+guis.BorderSizePixel = 2
+scriptinput.Visible = true
+scriptinput2.Visible = false
+end)
+
+others.Parent = optionbackround
+others.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+others.BorderColor3 = Color3.fromRGB(81, 127, 159)
+others.BorderSizePixel = 0
+others.Position = UDim2.new(0.111, 0,0.026, 0)
+others.Size = UDim2.new(0, 62, 0, 29)
+others.Font = Enum.Font.FredokaOne
+others.Text = "Others"
+others.TextColor3 = Color3.fromRGB(154, 154, 154)
+others.TextScaled = true
+others.TextSize = 14.000
+others.TextWrapped = true
+others.MouseButton1Down:connect(function()
+others.BorderSizePixel = 2
+guis.BorderSizePixel = 0
+scriptinput.Visible = false
+scriptinput2.Visible = true
+end)
+
 mainbackround.Name = "mainbackround"
 mainbackround.Parent = TextLabel
-mainbackround.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+mainbackround.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
 mainbackround.Position = UDim2.new(0.0467218682, 0, 1.51787341, 0)
 mainbackround.Size = UDim2.new(0, 203, 0, 191)
 mainbackround.Font = Enum.Font.SourceSans
@@ -105,7 +167,25 @@ UIGridLayout.Parent = scriptinput
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout.CellSize = UDim2.new(0, 140, 0, 20)
 
---BUTTONS
+scriptinput2.Name = "scriptinput2"
+scriptinput2.Parent = mainbackround
+scriptinput2.Active = true
+scriptinput2.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+scriptinput2.BorderColor3 = Color3.fromRGB(1, 2, 3)
+scriptinput2.BorderSizePixel = 3
+scriptinput2.Position = UDim2.new(0.0499999709, 0, 0.0421052463, 0)
+scriptinput2.Size = UDim2.new(0, 179, 0, 177)
+scriptinput2.ScrollBarThickness = 37
+
+
+
+UICorner_17.Parent = scriptinput2
+
+UIGridLayout_2.Parent = scriptinput
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellSize = UDim2.new(0, 140, 0, 20)
+
+--BUTTONS GUI
 
 Bloxfruit.Name = "Bloxfruit"
 Bloxfruit.Parent = scriptinput
@@ -260,6 +340,24 @@ Ysz.MouseButton1Down:connect(function()
 end)
 UICorner_15.Parent = Ysz
 
+-- BUTTONS OTHERS
+
+keyboard.Name = "keyboard"
+keyboard.Parent = scriptinput
+keyboard.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+keyboard.BorderColor3 = Color3.fromRGB(41, 64, 80)
+keyboard.Size = UDim2.new(0, 200, 0, 50)
+keyboard.Font = Enum.Font.FredokaOne
+keyboard.Text = "Keyboard"
+keyboard.TextColor3 = Color3.fromRGB(191, 191, 191)
+keyboard.TextScaled = true
+keyboard.TextSize = 14.000
+keyboard.TextWrapped = true
+keyboard.MouseButton1Down:connect(function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0youtubez", true))()
+end)
+UICorner_18.Parent = keyboard
+
 
 
 close.Name = "close"
@@ -288,6 +386,7 @@ open.Parent = ScreenGui
 open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 open.Position = UDim2.new(0, 0, 0.323076934, 0)
 open.Size = UDim2.new(0, 66, 0, 26)
+open.Visible = false
 
 openbutton.Parent = open
 openbutton.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
