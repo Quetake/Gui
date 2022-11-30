@@ -5,8 +5,6 @@ local optionbackround = Instance.new("TextLabel")
 local guis = Instance.new("TextButton")
 local others = Instance.new("TextButton")
 local mainbackround = Instance.new("TextLabel")
-local credits = Instance.new("TextLabel")
-local credits2 = Instance.new("TextLabel")
 local scriptinput = Instance.new("ScrollingFrame")
 local scriptinput2 = Instance.new("ScrollingFrame")
 local UIGridLayout = Instance.new("UIGridLayout")
@@ -126,8 +124,6 @@ others.BorderSizePixel = 0
 guis.BorderSizePixel = 2
 scriptinput.Visible = false
 scriptinput2.Visible = false
-credits.Visible = false
-credits2.Visible = false
 end)
 
 others.Parent = optionbackround
@@ -148,8 +144,6 @@ others.BorderSizePixel = 2
 guis.BorderSizePixel = 0
 scriptinput.Visible = false
 scriptinput2.Visible = false
-credits.Visible = false
-credits2.Visible = false
 end)
 
 mainbackround.Name = "mainbackround"
@@ -164,36 +158,6 @@ mainbackround.TextSize = 14.000
 
 UICorner_4.Parent = mainbackround
 
-credits.Name = "credits"
-credits.Parent = mainbackround
-credits.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
-credits.BorderColor3 = Color3.fromRGB(1, 2, 3)
-credits.BorderSizePixel = 3
-credits.Position = UDim2.new(0.069, 0,0.075, 0)
-credits.Font = Enum.Font.SourceSans
-credits.Text = "Made By amprossxxxs |👽| CHIEZZY"
-credits.TextColor3 = Color3.fromRGB(0, 0, 0)
-credits.TextScaled = true
-credits.TextSize = 14.000
-credits.TextWrapped = true
-credits.Size = UDim2.new(0, 174, 0, 22)
-credits.Visible = true
-
-
-credits2.Name = "credits2"
-credits2.Parent = mainbackround
-credits2.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
-credits2.BorderColor3 = Color3.fromRGB(1, 2, 3)
-credits2.BorderSizePixel = 3
-credits2.Position = UDim2.new(0.069, 0,0.331, 0)
-credits2.Font = Enum.Font.SourceSans
-credits2.Text = "Subscribe to @chiezzy 😡😡😡"
-credits2.TextColor3 = Color3.fromRGB(0, 0, 0)
-credits2.TextScaled = true
-credits2.TextSize = 14.000
-credits2.TextWrapped = true
-credits2.Size = UDim2.new(0, 174, 0, 22)
-credits2.Visible = true
 
 
 scriptinput.Name = "scriptinput"
