@@ -124,7 +124,7 @@ guis.TextSize = 14.000
 guis.TextWrapped = true
 guis.MouseButton1Down:connect(function()
 others.BorderSizePixel = 0
-guis.BorderSizePixel = 0
+guis.BorderSizePixel = 2
 scriptinput.Visible = true
 scriptinput2.Visible = false
 credits.Visible = false
