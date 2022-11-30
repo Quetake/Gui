@@ -401,7 +401,7 @@ vfly.TextScaled = true
 vfly.TextSize = 14.000
 vfly.TextWrapped = true
 vfly.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+      https://pastebin.com/raw/JUqrKZyx
 end)
 UICorner_20.Parent = vfly
 
