@@ -143,7 +143,7 @@ others.TextColor3 = Color3.fromRGB(154, 154, 154)
 others.TextScaled = true
 others.TextSize = 14.000
 others.TextWrapped = true
-others.Visible = false
+others.Visible = true
 others.MouseButton1Down:connect(function()
 others.BorderSizePixel = 2
 guis.BorderSizePixel = 0
@@ -172,6 +172,7 @@ scriptinput.BorderSizePixel = 3
 scriptinput.Position = UDim2.new(0.0499999709, 0, 0.0421052463, 0)
 scriptinput.Size = UDim2.new(0, 179, 0, 177)
 scriptinput.ScrollBarThickness = 37
+scriptinput.Visible = false
 
 UICorner_6.Parent = scriptinput
 
