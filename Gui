@@ -177,6 +177,7 @@ scriptinput2.BorderSizePixel = 3
 scriptinput2.Position = UDim2.new(0.0499999709, 0, 0.0421052463, 0)
 scriptinput2.Size = UDim2.new(0, 179, 0, 177)
 scriptinput2.ScrollBarThickness = 37
+scriptinput2.Visible = false
 
 
 
