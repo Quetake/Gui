@@ -22,42 +22,40 @@ local Kinglegacy = Instance.new("TextButton")
 local Doors = Instance.new("TextButton")
 local Evade = Instance.new("TextButton")
 local NDS = Instance.new("TextButton") 
-local mm2 = Instance.new("TextButton")
 local TOH = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
 local Ysz = Instance.new("TextButton")
 
 -- BUTTONS OTHERS
 local keyboard = Instance.new("TextButton")
-local mouse = Instance.new("TextButton")
+local fly = Instance.new("TextButton")
 local vfly = Instance.new("TextButton")
-
--- 
+local clicktp = Instance.new("TextButton")
 
 
 
 --UICorners
-local UICorner = Instance.new("UICorner")    --main
-local UICorner_2 = Instance.new("UICorner")  --
-local UICorner_3 = Instance.new("UICorner")  --
-local UICorner_4 = Instance.new("UICorner")  --
-local UICorner_5 = Instance.new("UICorner")  --
-local UICorner_6 = Instance.new("UICorner")  --
-local UICorner_7 = Instance.new("UICorner")  --
-local UICorner_8 = Instance.new("UICorner")  --
-local UICorner_9 = Instance.new("UICorner")  --
-local UICorner_10 = Instance.new("UICorner")  --
-local UICorner_11 = Instance.new("UICorner")  --
-local UICorner_12 = Instance.new("UICorner")  --
-local UICorner_13 = Instance.new("UICorner")  --
-local UICorner_14 = Instance.new("UICorner")  --
-local UICorner_15 = Instance.new("UICorner")  --
-local UICorner_16 = Instance.new("UICorner")  --
-local UICorner_17 = Instance.new("UICorner")  --
-local UICorner_18 = Instance.new("UICorner")  --
-local UICorner_19 = Instance.new("UICorner")  --
-local UICorner_20 = Instance.new("UICorner")  --
-
+local UICorner = Instance.new("UICorner")     --main
+local UICorner_2 = Instance.new("UICorner")   --warn
+local UICorner_3 = Instance.new("UICorner")   --warn
+local UICorner_4 = Instance.new("UICorner")   --mainbackround
+local UICorner_5 = Instance.new("UICorner")   --Bloxfruit
+local UICorner_6 = Instance.new("UICorner")   --scriptinput
+local UICorner_7 = Instance.new("UICorner")   --Shindolife
+local UICorner_8 = Instance.new("UICorner")   --close
+local UICorner_9 = Instance.new("UICorner")   --Kinglegacy
+local UICorner_10 = Instance.new("UICorner")  --Doors
+local UICorner_11 = Instance.new("UICorner")  --Evade
+local UICorner_12 = Instance.new("UICorner")  --NDS
+local UICorner_13 = Instance.new("UICorner")  --TOH
+local UICorner_14 = Instance.new("UICorner")  --Arsenal
+local UICorner_15 = Instance.new("UICorner")  --Ysz
+local UICorner_16 = Instance.new("UICorner")  --optionbackround
+local UICorner_17 = Instance.new("UICorner")  --scriptinput2
+local UICorner_18 = Instance.new("UICorner")  --keyboard
+local UICorner_19 = Instance.new("UICorner")  --fly
+local UICorner_20 = Instance.new("UICorner")  --vfly
+local UICorner_21 = Instance.new("UICorner")  --clicktp
 
 
 
@@ -406,21 +404,21 @@ end)
 UICorner_18.Parent = keyboard
 
 
-mouse.Name = "mouse"
-mouse.Parent = scriptinput2
-mouse.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
-mouse.BorderColor3 = Color3.fromRGB(41, 64, 80)
-mouse.Size = UDim2.new(0, 200, 0, 50)
-mouse.Font = Enum.Font.FredokaOne
-mouse.Text = "Mouse"
-mouse.TextColor3 = Color3.fromRGB(191, 191, 191)
-mouse.TextScaled = true
-mouse.TextSize = 14.000
-mouse.TextWrapped = true
-mouse.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+fly.Name = "fly"
+fly.Parent = scriptinput2
+fly.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+fly.BorderColor3 = Color3.fromRGB(41, 64, 80)
+fly.Size = UDim2.new(0, 200, 0, 50)
+fly.Font = Enum.Font.FredokaOne
+fly.Text = "Fly"
+fly.TextColor3 = Color3.fromRGB(191, 191, 191)
+fly.TextScaled = true
+fly.TextSize = 14.000
+fly.TextWrapped = true
+fly.MouseButton1Down:connect(function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/RPAmhEa8"))()
 end)
-UICorner_19.Parent = mouse
+UICorner_19.Parent = fly
 
 
 vfly.Name = "vfly"
@@ -438,6 +436,23 @@ vfly.MouseButton1Down:connect(function()
       loadstring(game:HttpGet("https://pastebin.com/raw/JUqrKZyx"))()
 end)
 UICorner_20.Parent = vfly
+
+
+clicktp.Name = "clicktp"
+clicktp.Parent = scriptinput2
+clicktp.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+clicktp.BorderColor3 = Color3.fromRGB(41, 64, 80)
+clicktp.Size = UDim2.new(0, 200, 0, 50)
+clicktp.Font = Enum.Font.FredokaOne
+clicktp.Text = "Click Tp"
+clicktp.TextColor3 = Color3.fromRGB(191, 191, 191)
+clicktp.TextScaled = true
+clicktp.TextSize = 14.000
+clicktp.TextWrapped = true
+clicktp.MouseButton1Down:connect(function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Quetake/clicktp/main/Clicktp"))()
+end)
+UICorner_21.Parent = clicktp
 
 
 
