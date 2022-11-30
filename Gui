@@ -124,7 +124,7 @@ others.Parent = optionbackround
 others.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 others.BorderColor3 = Color3.fromRGB(81, 127, 159)
 others.BorderSizePixel = 0
-others.Position = UDim2.new(0.111, 0,0.26, 0)
+others.Position = UDim2.new(0.111, 0,1, 0)
 others.Size = UDim2.new(0, 62, 0, 29)
 others.Font = Enum.Font.FredokaOne
 others.Text = "Others"
@@ -132,7 +132,6 @@ others.TextColor3 = Color3.fromRGB(154, 154, 154)
 others.TextScaled = true
 others.TextSize = 14.000
 others.TextWrapped = true
-others.Visible = false
 others.MouseButton1Down:connect(function()
 others.BorderSizePixel = 2
 guis.BorderSizePixel = 0
