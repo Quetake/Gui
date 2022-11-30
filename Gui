@@ -132,6 +132,7 @@ others.TextColor3 = Color3.fromRGB(154, 154, 154)
 others.TextScaled = true
 others.TextSize = 14.000
 others.TextWrapped = true
+others.Visible = false
 others.MouseButton1Down:connect(function()
 others.BorderSizePixel = 2
 guis.BorderSizePixel = 0
