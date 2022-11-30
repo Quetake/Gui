@@ -124,7 +124,7 @@ others.Parent = optionbackround
 others.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 others.BorderColor3 = Color3.fromRGB(81, 127, 159)
 others.BorderSizePixel = 0
-others.Position = UDim2.new(0.111, 0,0.21, 0)
+others.Position = UDim2.new(0.111, 0,0.215, 0)
 others.Size = UDim2.new(0, 62, 0, 29)
 others.Font = Enum.Font.FredokaOne
 others.Text = "Others"
@@ -344,7 +344,7 @@ UICorner_15.Parent = Ysz
 -- BUTTONS OTHERS
 
 keyboard.Name = "keyboard"
-keyboard.Parent = scriptinput
+keyboard.Parent = scriptinput2
 keyboard.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
 keyboard.BorderColor3 = Color3.fromRGB(41, 64, 80)
 keyboard.Size = UDim2.new(0, 200, 0, 50)
