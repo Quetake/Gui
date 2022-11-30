@@ -56,7 +56,7 @@ local UICorner_17 = Instance.new("UICorner")  --
 local UICorner_18 = Instance.new("UICorner")  --
 local UICorner_19 = Instance.new("UICorner")  --
 local UICorner_20 = Instance.new("UICorner")  --
-local UICorner_21 = Instance.new("UICorner")  --credits
+
 
 
 
@@ -121,9 +121,11 @@ guis.TextScaled = true
 guis.TextSize = 14.000
 guis.TextWrapped = true
 guis.MouseButton1Down:connect(function()
+credits.Visible = false
+credits2.Visible = false
 others.BorderSizePixel = 0
 guis.BorderSizePixel = 2
-scriptinput.Visible = true
+scriptinput.Visible = false
 scriptinput2.Visible = false
 end)
 
@@ -141,10 +143,12 @@ others.TextSize = 14.000
 others.TextWrapped = true
 others.Visible = true
 others.MouseButton1Down:connect(function()
+credits.Visible = false
+credits2.Visible = false
 others.BorderSizePixel = 2
 guis.BorderSizePixel = 0
 scriptinput.Visible = false
-scriptinput2.Visible = true
+scriptinput2.Visible = false
 end)
 
 mainbackround.Name = "mainbackround"
@@ -172,8 +176,23 @@ credits.TextScaled = true
 credits.TextSize = 14.000
 credits.TextWrapped = true
 credits.Size = UDim2.new(0, 174, 0, 22)
+credits.Visible = true
 
-credits.Visible = false
+
+credits2.Name = "credits2"
+credits2.Parent = mainbackround
+credits2.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+credits2.BorderColor3 = Color3.fromRGB(1, 2, 3)
+credits2.BorderSizePixel = 3
+credits2.Position = UDim2.new(0.069, 0,0.331, 0)
+credits2.Font = Enum.Font.SourceSans
+credits2.Text = "Subscribe to @chiezzy 😡😡😡"
+credits2.TextColor3 = Color3.fromRGB(0, 0, 0)
+credits2.TextScaled = true
+credits2.TextSize = 14.000
+credits2.TextWrapped = true
+credits2.Size = UDim2.new(0, 174, 0, 22)
+credits2.Visible = true
 
 
 scriptinput.Name = "scriptinput"
