@@ -122,12 +122,12 @@ guis.TextScaled = true
 guis.TextSize = 14.000
 guis.TextWrapped = true
 guis.MouseButton1Down:connect(function()
-credits.Visible = false
-credits2.Visible = false
 others.BorderSizePixel = 0
 guis.BorderSizePixel = 2
 scriptinput.Visible = false
 scriptinput2.Visible = false
+credits.Visible = false
+credits2.Visible = false
 end)
 
 others.Parent = optionbackround
@@ -144,12 +144,12 @@ others.TextSize = 14.000
 others.TextWrapped = true
 others.Visible = true
 others.MouseButton1Down:connect(function()
-credits.Visible = false
-credits2.Visible = false
 others.BorderSizePixel = 2
 guis.BorderSizePixel = 0
 scriptinput.Visible = false
 scriptinput2.Visible = false
+credits.Visible = false
+credits2.Visible = false
 end)
 
 mainbackround.Name = "mainbackround"
