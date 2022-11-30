@@ -33,7 +33,7 @@ local keyboard = Instance.new("TextButton")
 local fly = Instance.new("TextButton")
 local vfly = Instance.new("TextButton")
 local clicktp = Instance.new("TextButton")
-
+local admincommand = Instance.new("TextButton")
 
 
 --UICorners
@@ -59,6 +59,7 @@ local UICorner_19 = Instance.new("UICorner")  --fly
 local UICorner_20 = Instance.new("UICorner")  --vfly
 local UICorner_21 = Instance.new("UICorner")  --clicktp
 local UICorner_22 = Instance.new("UICorner")  --brookhaven
+local UICorner_23 = Instance.new("UICorner")  --admincommand
 
 
 
@@ -475,6 +476,23 @@ clicktp.MouseButton1Down:connect(function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Quetake/clicktp/main/Clicktp"))()
 end)
 UICorner_21.Parent = clicktp
+
+
+admincommand.Name = "admincommand"
+admincommand.Parent = scriptinput2
+admincommand.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+admincommand.BorderColor3 = Color3.fromRGB(41, 64, 80)
+admincommand.Size = UDim2.new(0, 200, 0, 50)
+admincommand.Font = Enum.Font.FredokaOne
+admincommand.Text = "Admin Command"
+admincommand.TextColor3 = Color3.fromRGB(191, 191, 191)
+admincommand.TextScaled = true
+admincommand.TextSize = 14.000
+admincommand.TextWrapped = true
+admincommand.MouseButton1Down:connect(function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+UICorner_23.Parent = admincommand
 
 
 
