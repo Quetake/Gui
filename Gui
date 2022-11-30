@@ -33,6 +33,12 @@ local Ysz = Instance.new("TextButton")
 -- BUTTONS OTHERS
 local keyboard = Instance.new("TextButton")
 local mouse = Instance.new("TextButton")
+local vfly = Instance.new("TextButton")
+
+
+
+
+
 --UICorners
 local UICorner = Instance.new("UICorner")
 local UICorner_2 = Instance.new("UICorner")
@@ -53,6 +59,12 @@ local UICorner_16 = Instance.new("UICorner")
 local UICorner_17 = Instance.new("UICorner")
 local UICorner_18 = Instance.new("UICorner")
 local UICorner_19 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
+
+
 
 --Properties:
 
@@ -375,6 +387,24 @@ mouse.MouseButton1Down:connect(function()
  loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
 end)
 UICorner_19.Parent = mouse
+
+
+vfly.Name = "vfly"
+vfly.Parent = scriptinput2
+vfly.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+vfly.BorderColor3 = Color3.fromRGB(41, 64, 80)
+vfly.Size = UDim2.new(0, 200, 0, 50)
+vfly.Font = Enum.Font.FredokaOne
+vfly.Text = "VFly"
+vfly.TextColor3 = Color3.fromRGB(191, 191, 191)
+vfly.TextScaled = true
+vfly.TextSize = 14.000
+vfly.TextWrapped = true
+vfly.MouseButton1Down:connect(function()
+ loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+end)
+UICorner_20.Parent = vfly
+
 
 
 close.Name = "close"
