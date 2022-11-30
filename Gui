@@ -1,0 +1,304 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local mainbackround = Instance.new("TextLabel")
+local scriptinput = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local close = Instance.new("TextButton")
+local open = Instance.new("Frame")
+local openbutton = Instance.new("TextButton")
+
+--BUTTONS
+local Bloxfruit = Instance.new("TextButton")
+local Shindolife = Instance.new("TextButton")
+local Kinglegacy = Instance.new("TextButton")
+local Doors = Instance.new("TextButton")
+local Evade = Instance.new("TextButton")
+local NDS = Instance.new("TextButton") 
+local mm2 = Instance.new("TextButton")
+local TOH = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local Ysz = Instance.new("TextButton")
+
+
+--UICorners
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
+
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+main.BackgroundTransparency = 0.150
+main.BorderColor3 = Color3.fromRGB(8, 12, 15)
+main.Position = UDim2.new(0.334710747, 0, 0.278846145, 0)
+main.Size = UDim2.new(0, 239, 0, 230)
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel.BorderColor3 = Color3.fromRGB(11, 18, 22)
+TextLabel.Position = UDim2.new(0.0266145691, 0, 0.0287625492, 0)
+TextLabel.Size = UDim2.new(0, 225, 0, 17)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Made By amprossxxxs | Chiezzy"
+TextLabel.TextColor3 = Color3.fromRGB(171, 171, 171)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.Parent = TextLabel
+
+UICorner_3.Parent = TextLabel
+
+mainbackround.Name = "mainbackround"
+mainbackround.Parent = TextLabel
+mainbackround.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+mainbackround.Position = UDim2.new(0.0467218682, 0, 1.51787341, 0)
+mainbackround.Size = UDim2.new(0, 203, 0, 191)
+mainbackround.Font = Enum.Font.SourceSans
+mainbackround.Text = ""
+mainbackround.TextColor3 = Color3.fromRGB(0, 0, 0)
+mainbackround.TextSize = 14.000
+
+UICorner_4.Parent = mainbackround
+
+scriptinput.Name = "scriptinput"
+scriptinput.Parent = mainbackround
+scriptinput.Active = true
+scriptinput.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+scriptinput.BorderColor3 = Color3.fromRGB(1, 2, 3)
+scriptinput.BorderSizePixel = 3
+scriptinput.Position = UDim2.new(0.0499999709, 0, 0.0421052463, 0)
+scriptinput.Size = UDim2.new(0, 179, 0, 177)
+scriptinput.ScrollBarThickness = 37
+
+UICorner_6.Parent = scriptinput
+
+UIGridLayout.Parent = scriptinput
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 140, 0, 20)
+
+--BUTTONS
+
+Bloxfruit.Name = "Bloxfruit"
+Bloxfruit.Parent = scriptinput
+Bloxfruit.BackgroundColor3 = Color3.fromRGB(26, 30, 45)
+Bloxfruit.BorderColor3 = Color3.fromRGB(41, 64, 80)
+Bloxfruit.Size = UDim2.new(0, 200, 0, 50)
+Bloxfruit.Font = Enum.Font.FredokaOne
+Bloxfruit.Text = "Bloxfruit"
+Bloxfruit.TextColor3 = Color3.fromRGB(191, 191, 191)
+Bloxfruit.TextScaled = true
+Bloxfruit.TextSize = 14.000
+Bloxfruit.TextWrapped = true
+Bloxfruit.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+UICorner_5.Parent = Bloxfruit
+
+
+Shindolife.Name = "Shindolife"
+Shindolife.Parent = scriptinput
+Shindolife.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+Shindolife.BorderColor3 = Color3.fromRGB(41, 64, 80)
+Shindolife.Size = UDim2.new(0, 200, 0, 50)
+Shindolife.Font = Enum.Font.FredokaOne
+Shindolife.Text = "Shindolife"
+Shindolife.TextColor3 = Color3.fromRGB(191, 191, 191)
+Shindolife.TextScaled = true
+Shindolife.TextSize = 14.000
+Shindolife.TextWrapped = true
+Shindolife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+end)
+UICorner_7.Parent = Shindolife
+
+
+Kinglegacy.Name = "Kinglegacy"
+Kinglegacy.Parent = scriptinput
+Kinglegacy.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+Kinglegacy.BorderColor3 = Color3.fromRGB(41, 64, 80)
+Kinglegacy.Size = UDim2.new(0, 200, 0, 50)
+Kinglegacy.Font = Enum.Font.FredokaOne
+Kinglegacy.Text = "Kinglegacy"
+Kinglegacy.TextColor3 = Color3.fromRGB(191, 191, 191)
+Kinglegacy.TextScaled = true
+Kinglegacy.TextSize = 14.000
+Kinglegacy.TextWrapped = true
+Kinglegacy.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/King-Legacy/main/README.md"))()
+end)
+UICorner_9.Parent = Kinglegacy
+
+
+Doors.Name = "Doors"
+Doors.Parent = scriptinput
+Doors.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+Doors.BorderColor3 = Color3.fromRGB(41, 64, 80)
+Doors.Size = UDim2.new(0, 200, 0, 50)
+Doors.Font = Enum.Font.FredokaOne
+Doors.Text = "Doors"
+Doors.TextColor3 = Color3.fromRGB(191, 191, 191)
+Doors.TextScaled = true
+Doors.TextSize = 14.000
+Doors.TextWrapped = true
+Doors.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+UICorner_10.Parent = Doors
+
+
+Evade.Name = "Evade"
+Evade.Parent = scriptinput
+Evade.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+Evade.BorderColor3 = Color3.fromRGB(41, 64, 80)
+Evade.Size = UDim2.new(0, 200, 0, 50)
+Evade.Font = Enum.Font.FredokaOne
+Evade.Text = "Evade"
+Evade.TextColor3 = Color3.fromRGB(191, 191, 191)
+Evade.TextScaled = true
+Evade.TextSize = 14.000
+Evade.TextWrapped = true
+Evade.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+	loadstring(game:HttpGet('http://vendettahub.xyz/Vendetta/Vendetta.v3'))()
+end)
+UICorner_11.Parent = Evade
+
+
+NDS.Name = "NDS"
+NDS.Parent = scriptinput
+NDS.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+NDS.BorderColor3 = Color3.fromRGB(41, 64, 80)
+NDS.Size = UDim2.new(0, 200, 0, 50)
+NDS.Font = Enum.Font.FredokaOne
+NDS.Text = "Natural Disaster Survival"
+NDS.TextColor3 = Color3.fromRGB(191, 191, 191)
+NDS.TextScaled = true
+NDS.TextSize = 14.000
+NDS.TextWrapped = true
+NDS.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+end)
+UICorner_12.Parent = NDS
+
+
+TOH.Name = "TOH"
+TOH.Parent = scriptinput
+TOH.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+TOH.BorderColor3 = Color3.fromRGB(41, 64, 80)
+TOH.Size = UDim2.new(0, 200, 0, 50)
+TOH.Font = Enum.Font.FredokaOne
+TOH.Text = "Tower Of Hell"
+TOH.TextColor3 = Color3.fromRGB(191, 191, 191)
+TOH.TextScaled = true
+TOH.TextSize = 14.000
+TOH.TextWrapped = true
+TOH.MouseButton1Down:connect(function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+end)
+UICorner_13.Parent = TOH
+
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = scriptinput
+Arsenal.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+Arsenal.BorderColor3 = Color3.fromRGB(41, 64, 80)
+Arsenal.Size = UDim2.new(0, 200, 0, 50)
+Arsenal.Font = Enum.Font.FredokaOne
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(191, 191, 191)
+Arsenal.TextScaled = true
+Arsenal.TextSize = 14.000
+Arsenal.TextWrapped = true
+Arsenal.MouseButton1Down:connect(function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
+end)
+UICorner_14.Parent = Arsenal
+
+
+Ysz.Name = "Ysz"
+Ysz.Parent = scriptinput
+Ysz.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+Ysz.BorderColor3 = Color3.fromRGB(41, 64, 80)
+Ysz.Size = UDim2.new(0, 200, 0, 50)
+Ysz.Font = Enum.Font.FredokaOne
+Ysz.Text = "Youtube Simulator Z"
+Ysz.TextColor3 = Color3.fromRGB(191, 191, 191)
+Ysz.TextScaled = true
+Ysz.TextSize = 14.000
+Ysz.TextWrapped = true
+Ysz.MouseButton1Down:connect(function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0youtubez", true))()
+end)
+UICorner_15.Parent = Ysz
+
+
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+close.Position = UDim2.new(0.916415513, 0, -0.0652173907, 0)
+close.Size = UDim2.new(0, 32, 0, 32)
+close.Font = Enum.Font.FredokaOne
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(198, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+main.Visible = false
+open.Visible = true
+end)
+
+
+
+UICorner_8.CornerRadius = UDim.new(1, 100)
+UICorner_8.Parent = close
+
+open.Name = "open"
+open.Parent = ScreenGui
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.Position = UDim2.new(0, 0, 0.323076934, 0)
+open.Size = UDim2.new(0, 66, 0, 26)
+
+openbutton.Parent = open
+openbutton.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+openbutton.Size = UDim2.new(0, 66, 0, 26)
+openbutton.Font = Enum.Font.FredokaOne
+openbutton.Text = "Open"
+openbutton.TextColor3 = Color3.fromRGB(207, 207, 207)
+openbutton.TextScaled = true
+openbutton.TextSize = 14.000
+openbutton.TextWrapped = true
+openbutton.MouseButton1Down:connect(function()
+main.Visible = true
+open.Visible = false
+end)
