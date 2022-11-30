@@ -55,7 +55,7 @@ main.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 main.BackgroundTransparency = 0.150
 main.BorderColor3 = Color3.fromRGB(8, 12, 15)
 main.Position = UDim2.new(0.334710747, 0, 0.278846145, 0)
-main.Size = UDim2.new(0, 239, 0, 230)
+main.Size = UDim2.new(0, 326, 0, 230)
 main.Active = true
 main.Draggable = true
 
