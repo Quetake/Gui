@@ -25,6 +25,8 @@ local NDS = Instance.new("TextButton")
 local TOH = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
 local Ysz = Instance.new("TextButton")
+local brookhaven = Instance.new("TextButton")
+
 
 -- BUTTONS OTHERS
 local keyboard = Instance.new("TextButton")
@@ -56,7 +58,7 @@ local UICorner_18 = Instance.new("UICorner")  --keyboard
 local UICorner_19 = Instance.new("UICorner")  --fly
 local UICorner_20 = Instance.new("UICorner")  --vfly
 local UICorner_21 = Instance.new("UICorner")  --clicktp
-
+local UICorner_22 = Instance.new("UICorner")  --brookhaven
 
 
 
@@ -239,7 +241,7 @@ Bloxfruit.BackgroundColor3 = Color3.fromRGB(26, 30, 45)
 Bloxfruit.BorderColor3 = Color3.fromRGB(41, 64, 80)
 Bloxfruit.Size = UDim2.new(0, 200, 0, 50)
 Bloxfruit.Font = Enum.Font.FredokaOne
-Bloxfruit.Text = "Bloxfruit"
+Bloxfruit.Text = "Blox Fruits"
 Bloxfruit.TextColor3 = Color3.fromRGB(191, 191, 191)
 Bloxfruit.TextScaled = true
 Bloxfruit.TextSize = 14.000
@@ -256,7 +258,7 @@ Shindolife.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
 Shindolife.BorderColor3 = Color3.fromRGB(41, 64, 80)
 Shindolife.Size = UDim2.new(0, 200, 0, 50)
 Shindolife.Font = Enum.Font.FredokaOne
-Shindolife.Text = "Shindolife"
+Shindolife.Text = "Shindo Life"
 Shindolife.TextColor3 = Color3.fromRGB(191, 191, 191)
 Shindolife.TextScaled = true
 Shindolife.TextSize = 14.000
@@ -290,7 +292,7 @@ Doors.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
 Doors.BorderColor3 = Color3.fromRGB(41, 64, 80)
 Doors.Size = UDim2.new(0, 200, 0, 50)
 Doors.Font = Enum.Font.FredokaOne
-Doors.Text = "Doors"
+Doors.Text = "DOORS"
 Doors.TextColor3 = Color3.fromRGB(191, 191, 191)
 Doors.TextScaled = true
 Doors.TextSize = 14.000
@@ -385,7 +387,27 @@ Ysz.MouseButton1Down:connect(function()
 end)
 UICorner_15.Parent = Ysz
 
--- BUTTONS OTHERS
+
+
+brookhaven.Name = "brookhaven"
+brookhaven.Parent = scriptinput
+brookhaven.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+brookhaven.BorderColor3 = Color3.fromRGB(41, 64, 80)
+brookhaven.Size = UDim2.new(0, 200, 0, 50)
+brookhaven.Font = Enum.Font.FredokaOne
+brookhaven.Text = "Brookhaven 🏡RP"
+brookhaven.TextColor3 = Color3.fromRGB(191, 191, 191)
+brookhaven.TextScaled = true
+brookhaven.TextSize = 14.000
+brookhaven.TextWrapped = true
+brookhaven.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ice-Hub-6414", true))()
+end)
+UICorner_22.Parent = brookhaven
+
+
+
+-- BUTTONS OTHERS--------------------------------------------------------------------------
 
 keyboard.Name = "keyboard"
 keyboard.Parent = scriptinput2
