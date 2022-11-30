@@ -60,9 +60,8 @@ local UICorner_17 = Instance.new("UICorner")
 local UICorner_18 = Instance.new("UICorner")
 local UICorner_19 = Instance.new("UICorner")
 local UICorner_20 = Instance.new("UICorner")
-local UICorner_21 = Instance.new("UICorner")
-local UICorner_22 = Instance.new("UICorner")
-local UICorner_23 = Instance.new("UICorner")
+
+
 
 
 
