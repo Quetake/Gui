@@ -182,7 +182,7 @@ scriptinput2.ScrollBarThickness = 37
 
 UICorner_17.Parent = scriptinput2
 
-UIGridLayout_2.Parent = scriptinput
+UIGridLayout_2.Parent = scriptinput2
 UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout_2.CellSize = UDim2.new(0, 140, 0, 20)
 
@@ -268,7 +268,6 @@ Evade.TextScaled = true
 Evade.TextSize = 14.000
 Evade.TextWrapped = true
 Evade.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 	loadstring(game:HttpGet('http://vendettahub.xyz/Vendetta/Vendetta.v3'))()
 end)
 UICorner_11.Parent = Evade
@@ -355,7 +354,7 @@ keyboard.TextScaled = true
 keyboard.TextSize = 14.000
 keyboard.TextWrapped = true
 keyboard.MouseButton1Down:connect(function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0youtubez", true))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 UICorner_18.Parent = keyboard
 
