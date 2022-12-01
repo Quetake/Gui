@@ -288,7 +288,7 @@ scriptinput3.Visible = false
 
 UICorner_24.Parent = scriptinput3
 
-UIGridLayout_3.Parent = scriptinput2
+UIGridLayout_3.Parent = scriptinput3
 UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout_3.CellSize = UDim2.new(0, 140, 0, 20)
 
