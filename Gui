@@ -4,6 +4,7 @@ local warn = Instance.new("TextLabel")
 local optionbackround = Instance.new("TextLabel")
 local guis = Instance.new("TextButton")
 local others = Instance.new("TextButton")
+local fun = Instance.new("TextButton")
 local mainbackround = Instance.new("TextLabel")
 local credits = Instance.new("TextLabel")
 local credits2 = Instance.new("TextLabel")
@@ -11,6 +12,7 @@ local scriptinput = Instance.new("ScrollingFrame")
 local scriptinput2 = Instance.new("ScrollingFrame")
 local UIGridLayout = Instance.new("UIGridLayout")
 local UIGridLayout_2 = Instance.new("UIGridLayout")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
 local close = Instance.new("TextButton")
 local open = Instance.new("Frame")
 local openbutton = Instance.new("TextButton")
@@ -34,6 +36,11 @@ local fly = Instance.new("TextButton")
 local vfly = Instance.new("TextButton")
 local clicktp = Instance.new("TextButton")
 local admincommand = Instance.new("TextButton")
+
+
+--Fun
+local r6andr15 = Instance.new("TextButton")
+
 
 
 --UICorners
@@ -60,8 +67,8 @@ local UICorner_20 = Instance.new("UICorner")  --vfly
 local UICorner_21 = Instance.new("UICorner")  --clicktp
 local UICorner_22 = Instance.new("UICorner")  --brookhaven
 local UICorner_23 = Instance.new("UICorner")  --admincommand
-
-
+local UICorner_24 = Instance.new("UICorner")  --scriptinput3
+local UICorner_25 = Instance.new("UICorner")  --r6andr15
 
 --Properties:
 
@@ -125,8 +132,10 @@ guis.TextWrapped = true
 guis.MouseButton1Down:connect(function()
 others.BorderSizePixel = 0
 guis.BorderSizePixel = 2
+fun.BorderSizePixel = 0
 scriptinput.Visible = true
 scriptinput2.Visible = false
+scriptinput3.Visible = false
 credits.Visible = false
 credits2.Visible = false
 end)
@@ -147,11 +156,39 @@ others.Visible = true
 others.MouseButton1Down:connect(function()
 others.BorderSizePixel = 2
 guis.BorderSizePixel = 0
+fun.BorderSizePixel = 0
 scriptinput.Visible = false
 scriptinput2.Visible = true
+scriptinput3.Visible = false
 credits.Visible = false
 credits2.Visible = false
 end)
+
+fun.Parent = optionbackround
+fun.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+fun.BorderColor3 = Color3.fromRGB(81, 127, 159)
+fun.BorderSizePixel = 0
+fun.Position = UDim2.new(0.111, 0,0.41, 0)
+fun.Size = UDim2.new(0, 62, 0, 29)
+fun.Font = Enum.Font.FredokaOne
+fun.Text = "Fun"
+fun.TextColor3 = Color3.fromRGB(154, 154, 154)
+fun.TextScaled = true
+fun.TextSize = 14.000
+fun.TextWrapped = true
+fun.Visible = true
+fun.MouseButton1Down:connect(function()
+fun.BorderSizePixel = 2
+guis.BorderSizePixel = 0
+others.BorderSizePixel = 0
+scriptinput.Visible = false
+scriptinput2.Visible = false
+scriptinput3.Visible = true
+credits.Visible = false
+credits2.Visible = false
+end)
+
+
 
 mainbackround.Name = "mainbackround"
 mainbackround.Parent = warn
@@ -233,6 +270,27 @@ UICorner_17.Parent = scriptinput2
 UIGridLayout_2.Parent = scriptinput2
 UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout_2.CellSize = UDim2.new(0, 140, 0, 20)
+
+
+scriptinput3.Name = "scriptinput3"
+scriptinput3.Parent = mainbackround
+scriptinput3.Active = true
+scriptinput3.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+scriptinput3.BorderColor3 = Color3.fromRGB(1, 2, 3)
+scriptinput3.BorderSizePixel = 3
+scriptinput3.Position = UDim2.new(0.0499999709, 0, 0.0421052463, 0)
+scriptinput3.Size = UDim2.new(0, 179, 0, 177)
+scriptinput3.ScrollBarThickness = 37
+scriptinput3.Visible = false
+
+
+
+UICorner_24.Parent = scriptinput3
+
+UIGridLayout_3.Parent = scriptinput2
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_3.CellSize = UDim2.new(0, 140, 0, 20)
+
 
 --BUTTONS GUI
 
@@ -494,6 +552,23 @@ admincommand.MouseButton1Down:connect(function()
 end)
 UICorner_23.Parent = admincommand
 
+
+-- Fun BUTTONS
+r6andr15.Name = "r6andr15"
+r6andr15.Parent = scriptinput3
+r6andr15.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+r6andr15.BorderColor3 = Color3.fromRGB(41, 64, 80)
+r6andr15.Size = UDim2.new(0, 200, 0, 50)
+r6andr15.Font = Enum.Font.FredokaOne
+r6andr15.Text = "R6 And R15 Animations"
+r6andr15.TextColor3 = Color3.fromRGB(191, 191, 191)
+r6andr15.TextScaled = true
+r6andr15.TextSize = 14.000
+r6andr15.TextWrapped = true
+r6andr15.MouseButton1Down:connect(function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/RmD3qNp7", true))()
+end)
+UICorner_25.Parent = admincommand
 
 
 close.Name = "close"
