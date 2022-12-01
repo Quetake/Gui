@@ -8,6 +8,7 @@ local fun = Instance.new("TextButton")
 local mainbackround = Instance.new("TextLabel")
 local credits = Instance.new("TextLabel")
 local credits2 = Instance.new("TextLabel")
+local credits3 = Instance.new("TextLabel")
 local scriptinput = Instance.new("ScrollingFrame")
 local scriptinput2 = Instance.new("ScrollingFrame")
 local scriptinput3 = Instance.new("ScrollingFrame")
@@ -70,6 +71,9 @@ local UICorner_22 = Instance.new("UICorner")  --brookhaven
 local UICorner_23 = Instance.new("UICorner")  --admincommand
 local UICorner_24 = Instance.new("UICorner")  --scriptinput3
 local UICorner_25 = Instance.new("UICorner")  --r6anim
+local UICorner_26 = Instance.new("UICorner")  --credits
+local UICorner_27 = Instance.new("UICorner")  --credits2
+local UICorner_28 = Instance.new("UICorner")  --credits3
 
 --Properties:
 
@@ -218,7 +222,7 @@ credits.TextSize = 14.000
 credits.TextWrapped = true
 credits.Size = UDim2.new(0, 174, 0, 22)
 credits.Visible = true
-
+UICorner_26.Parent = credits
 
 credits2.Name = "credits2"
 credits2.Parent = mainbackround
@@ -234,6 +238,23 @@ credits2.TextSize = 14.000
 credits2.TextWrapped = true
 credits2.Size = UDim2.new(0, 174, 0, 22)
 credits2.Visible = true
+UICorner_27.Parent = credits2
+
+credits3.Name = "credits3"
+credits3.Parent = mainbackround
+credits3.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+credits3.BorderColor3 = Color3.fromRGB(1, 2, 3)
+credits3.BorderSizePixel = 3
+credits3.Position = UDim2.new(0.069, 0,0.597, 0)
+credits3.Font = Enum.Font.SourceSans
+credits3.Text = "👮‍I DONT OWN ANY OF SCRIPT, CREDITS TO THE RIGHTS OWNER👮‍♂️"
+credits3.TextColor3 = Color3.fromRGB(0, 0, 0)
+credits3.TextScaled = true
+credits3.TextSize = 14.000
+credits3.TextWrapped = true
+credits3.Size = UDim2.new(0, 174, 0, 30)
+credits3.Visible = true
+UICorner_28.Parent = credits3
 
 
 scriptinput.Name = "scriptinput"
