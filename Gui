@@ -40,7 +40,7 @@ local admincommand = Instance.new("TextButton")
 
 
 --Fun
-local r6andr15 = Instance.new("TextButton")
+local r6anim = Instance.new("TextButton")
 
 
 
@@ -69,7 +69,7 @@ local UICorner_21 = Instance.new("UICorner")  --clicktp
 local UICorner_22 = Instance.new("UICorner")  --brookhaven
 local UICorner_23 = Instance.new("UICorner")  --admincommand
 local UICorner_24 = Instance.new("UICorner")  --scriptinput3
-local UICorner_25 = Instance.new("UICorner")  --r6andr15
+local UICorner_25 = Instance.new("UICorner")  --r6anim
 
 --Properties:
 
@@ -555,21 +555,21 @@ UICorner_23.Parent = admincommand
 
 
 -- Fun BUTTONS
-r6andr15.Name = "r6andr15"
-r6andr15.Parent = scriptinput3
-r6andr15.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
-r6andr15.BorderColor3 = Color3.fromRGB(41, 64, 80)
-r6andr15.Size = UDim2.new(0, 200, 0, 50)
-r6andr15.Font = Enum.Font.FredokaOne
-r6andr15.Text = "R6 And R15 Animations"
-r6andr15.TextColor3 = Color3.fromRGB(191, 191, 191)
-r6andr15.TextScaled = true
-r6andr15.TextSize = 14.000
-r6andr15.TextWrapped = true
-r6andr15.MouseButton1Down:connect(function()
+r6anim.Name = "r6anim"
+r6anim.Parent = scriptinput3
+r6anim.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
+r6anim.BorderColor3 = Color3.fromRGB(41, 64, 80)
+r6anim.Size = UDim2.new(0, 200, 0, 50)
+r6anim.Font = Enum.Font.FredokaOne
+r6anim.Text = "R6 Animations"
+r6anim.TextColor3 = Color3.fromRGB(191, 191, 191)
+r6anim.TextScaled = true
+r6anim.TextSize = 14.000
+r6anim.TextWrapped = true
+r6anim.MouseButton1Down:connect(function()
       loadstring(game:HttpGet("https://pastebin.com/raw/RmD3qNp7", true))()
 end)
-UICorner_25.Parent = admincommand
+UICorner_25.Parent = r6anim
 
 
 close.Name = "close"
