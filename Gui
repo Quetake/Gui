@@ -606,7 +606,7 @@ grandmaster.TextScaled = true
 grandmaster.TextSize = 14.000
 grandmaster.TextWrapped = true
 grandmaster.MouseButton1Down:connect(function()
-      loadstring(game:HttpGet("https://pastebin.com/raw/M0MpRkfs"))()
+      loadstring(game:HttpGet("https://pastebin.com/raw/M0MpRkfs", true))()
 end)
 UICorner_29.Parent = grandmaster
 
