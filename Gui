@@ -30,7 +30,6 @@ local TOH = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
 local Ysz = Instance.new("TextButton")
 local brookhaven = Instance.new("TextButton")
-local dahoodsilent = Instance.new("TextButton")
 
 -- BUTTONS OTHERS
 local keyboard = Instance.new("TextButton")
@@ -77,7 +76,7 @@ local UICorner_26 = Instance.new("UICorner")  --credits
 local UICorner_27 = Instance.new("UICorner")  --credits2
 local UICorner_28 = Instance.new("UICorner")  --credits3
 local UICorner_29 = Instance.new("UICorner")  --grandmaster
-local UICorner_30 = Instance.new("UICorner")  --dahoodsilent
+
 
 --Properties:
 
@@ -491,21 +490,7 @@ end)
 UICorner_22.Parent = brookhaven
 
 
-dahoodsilent.Name = "dahoodsilent"
-dahoodsilent.Parent = scriptinput
-dahoodsilent.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
-dahoodsilent.BorderColor3 = Color3.fromRGB(41, 64, 80)
-dahoodsilent.Size = UDim2.new(0, 200, 0, 50)
-dahoodsilent.Font = Enum.Font.FredokaOne
-dahoodsilent.Text = "Da Hood Auto Shoot"
-dahoodsilent.TextColor3 = Color3.fromRGB(191, 191, 191)
-dahoodsilent.TextScaled = true
-dahoodsilent.TextSize = 14.000
-dahoodsilent.TextWrapped = true
-dahoodsilent.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/iAPuxdQ4))()
-end)
-UICorner_30.Parent = dahoodsilent
+
 -- BUTTONS OTHERS--------------------------------------------------------------------------
 
 keyboard.Name = "keyboard"
