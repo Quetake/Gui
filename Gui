@@ -505,7 +505,7 @@ dahoodsilent.TextWrapped = true
 dahoodsilent.MouseButton1Down:connect(function()
     loadstring(game:HttpGet("https://pastebin.com/raw/iAPuxdQ4))()
 end)
-UICorner_30.Parent = brookhaven
+UICorner_30.Parent = dahoodsilent
 -- BUTTONS OTHERS--------------------------------------------------------------------------
 
 keyboard.Name = "keyboard"
