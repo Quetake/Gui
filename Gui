@@ -202,8 +202,8 @@ end)
 mainbackround.Name = "mainbackround"
 mainbackround.Parent = warn
 mainbackround.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-mainbackround.Position = UDim2.new(0.0467218682, 0, 1.51787341, 0)
-mainbackround.Size = UDim2.new(0, 203, 0, 191)
+mainbackround.Position = UDim2.new(0.175, 0,1.459, 0)
+mainbackround.Size = UDim2.new(0, 203,0, 191)
 mainbackround.Font = Enum.Font.SourceSans
 mainbackround.Text = ""
 mainbackround.TextColor3 = Color3.fromRGB(0, 0, 0)
