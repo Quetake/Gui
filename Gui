@@ -32,6 +32,7 @@ local Ysz = Instance.new("TextButton")
 local brookhaven = Instance.new("TextButton")
 
 
+
 -- BUTTONS OTHERS
 local keyboard = Instance.new("TextButton")
 local fly = Instance.new("TextButton")
@@ -39,13 +40,9 @@ local vfly = Instance.new("TextButton")
 local clicktp = Instance.new("TextButton")
 local admincommand = Instance.new("TextButton")
 
-
 --Fun
 local r6anim = Instance.new("TextButton")
 local grandmaster = Instance.new("TextButton")
-
-
-
 
 --UICorners
 local UICorner = Instance.new("UICorner")     --main
@@ -79,28 +76,26 @@ local UICorner_28 = Instance.new("UICorner")  --credits3
 local UICorner_29 = Instance.new("UICorner")  --grandmaster
 
 
+
 --Properties:
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 main.BackgroundTransparency = 0.150
 main.BorderColor3 = Color3.fromRGB(8, 12, 15)
-main.Position = UDim2.new(0.284, 0,0.281, 0)
-main.Size = UDim2.new(0, 363,0, 234)
+main.Position = UDim2.new(0.334710747, 0, 0.278846145, 0)
+main.Size = UDim2.new(0, 326, 0, 230)
 main.Active = true
 main.Draggable = true
-
 UICorner.Parent = main
-
 warn.Parent = main
 warn.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 warn.BorderColor3 = Color3.fromRGB(11, 18, 22)
-warn.Position = UDim2.new(0.019, 0,0.029, 0)
-warn.Size = UDim2.new(0, 342,0, 17)
+warn.Position = UDim2.new(0.027, 0, 0.029, 0)
+warn.Size = UDim2.new(0, 311, 0, 17)
 warn.Font = Enum.Font.FredokaOne
 warn.Text = "WARNING! : USE AT YOUR OWN RISK"
 warn.TextColor3 = Color3.fromRGB(171, 171, 171)
@@ -109,8 +104,8 @@ warn.TextSize = 14.000
 warn.TextWrapped = true
 
 UICorner_2.Parent = warn
-
 UICorner_3.Parent = warn
+
 
 optionbackround.Parent = main
 optionbackround.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
@@ -123,8 +118,8 @@ optionbackround.TextColor3 = Color3.fromRGB(171, 171, 171)
 optionbackround.TextScaled = true
 optionbackround.TextSize = 14.000
 optionbackround.TextWrapped = true
-
 UICorner_16.Parent = optionbackround
+
 
 guis.Parent = optionbackround
 guis.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
@@ -149,6 +144,7 @@ credits.Visible = false
 credits2.Visible = false
 end)
 
+
 others.Parent = optionbackround
 others.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 others.BorderColor3 = Color3.fromRGB(81, 127, 159)
@@ -172,6 +168,7 @@ scriptinput3.Visible = false
 credits.Visible = false
 credits2.Visible = false
 end)
+
 
 fun.Parent = optionbackround
 fun.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
@@ -198,19 +195,16 @@ credits2.Visible = false
 end)
 
 
-
 mainbackround.Name = "mainbackround"
 mainbackround.Parent = warn
 mainbackround.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-mainbackround.Position = UDim2.new(0.175, 0,1.459, 0)
-mainbackround.Size = UDim2.new(0, 203,0, 191)
+mainbackround.Position = UDim2.new(0.0467218682, 0, 1.51787341, 0)
+mainbackround.Size = UDim2.new(0, 203, 0, 191)
 mainbackround.Font = Enum.Font.SourceSans
 mainbackround.Text = ""
 mainbackround.TextColor3 = Color3.fromRGB(0, 0, 0)
 mainbackround.TextSize = 14.000
-
 UICorner_4.Parent = mainbackround
-
 
 credits.Name = "credits"
 credits.Parent = mainbackround
@@ -228,6 +222,7 @@ credits.Size = UDim2.new(0, 174, 0, 22)
 credits.Visible = true
 UICorner_26.Parent = credits
 
+
 credits2.Name = "credits2"
 credits2.Parent = mainbackround
 credits2.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
@@ -243,6 +238,7 @@ credits2.TextWrapped = true
 credits2.Size = UDim2.new(0, 174, 0, 22)
 credits2.Visible = true
 UICorner_27.Parent = credits2
+
 
 credits3.Name = "credits3"
 credits3.Parent = mainbackround
@@ -271,12 +267,11 @@ scriptinput.Position = UDim2.new(0.0499999709, 0, 0.0421052463, 0)
 scriptinput.Size = UDim2.new(0, 179, 0, 177)
 scriptinput.ScrollBarThickness = 37
 scriptinput.Visible = false
-
 UICorner_6.Parent = scriptinput
-
 UIGridLayout.Parent = scriptinput
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout.CellSize = UDim2.new(0, 140, 0, 20)
+
 
 scriptinput2.Name = "scriptinput2"
 scriptinput2.Parent = mainbackround
@@ -288,11 +283,7 @@ scriptinput2.Position = UDim2.new(0.0499999709, 0, 0.0421052463, 0)
 scriptinput2.Size = UDim2.new(0, 179, 0, 177)
 scriptinput2.ScrollBarThickness = 37
 scriptinput2.Visible = false
-
-
-
 UICorner_17.Parent = scriptinput2
-
 UIGridLayout_2.Parent = scriptinput2
 UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout_2.CellSize = UDim2.new(0, 140, 0, 20)
@@ -308,18 +299,13 @@ scriptinput3.Position = UDim2.new(0.0499999709, 0, 0.0421052463, 0)
 scriptinput3.Size = UDim2.new(0, 179, 0, 177)
 scriptinput3.ScrollBarThickness = 37
 scriptinput3.Visible = false
-
-
-
 UICorner_24.Parent = scriptinput3
-
 UIGridLayout_3.Parent = scriptinput3
 UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout_3.CellSize = UDim2.new(0, 140, 0, 20)
 
 
 --BUTTONS GUI
-
 Bloxfruit.Name = "Bloxfruit"
 Bloxfruit.Parent = scriptinput
 Bloxfruit.BackgroundColor3 = Color3.fromRGB(26, 30, 45)
@@ -473,7 +459,6 @@ end)
 UICorner_15.Parent = Ysz
 
 
-
 brookhaven.Name = "brookhaven"
 brookhaven.Parent = scriptinput
 brookhaven.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
@@ -614,7 +599,6 @@ end)
 UICorner_29.Parent = grandmaster
 
 
-
 close.Name = "close"
 close.Parent = main
 close.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
@@ -630,19 +614,14 @@ close.MouseButton1Down:connect(function()
 main.Visible = false
 open.Visible = true
 end)
-
-
-
 UICorner_8.CornerRadius = UDim.new(1, 100)
 UICorner_8.Parent = close
-
 open.Name = "open"
 open.Parent = ScreenGui
 open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 open.Position = UDim2.new(0, 0, 0.323076934, 0)
 open.Size = UDim2.new(0, 66, 0, 26)
 open.Visible = false
-
 openbutton.Parent = open
 openbutton.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 openbutton.Size = UDim2.new(0, 66, 0, 26)
