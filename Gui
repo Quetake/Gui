@@ -30,7 +30,7 @@ local TOH = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
 local Ysz = Instance.new("TextButton")
 local brookhaven = Instance.new("TextButton")
-local Psx = Instance.new("TextButton")
+
 
 
 -- BUTTONS OTHERS
@@ -42,7 +42,7 @@ local admincommand = Instance.new("TextButton")
 
 --Fun
 local r6anim = Instance.new("TextButton")
-local grandmaster = Instance.new("TextButton")
+
 
 --UICorners
 local UICorner = Instance.new("UICorner")     --main
@@ -73,8 +73,8 @@ local UICorner_25 = Instance.new("UICorner")  --r6anim
 local UICorner_26 = Instance.new("UICorner")  --credits
 local UICorner_27 = Instance.new("UICorner")  --credits2
 local UICorner_28 = Instance.new("UICorner")  --credits3
-local UICorner_29 = Instance.new("UICorner")  --grandmaster
-local UICorner_30 = Instance.new("UICorner")  --PSX
+
+
 
 
 --Properties
@@ -476,22 +476,6 @@ end)
 UICorner_22.Parent = brookhaven
 
 
-Psx.Name = "Psx"
-Psx.Parent = scriptinput
-Psx.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
-Psx.BorderColor3 = Color3.fromRGB(41, 64, 80)
-Psx.Size = UDim2.new(0, 200, 0, 50)
-Psx.Font = Enum.Font.FredokaOne
-Psx.Text = "Pet Simulator X"
-Psx.TextColor3 = Color3.fromRGB(191, 191, 191)
-Psx.TextScaled = true
-Psx.TextSize = 14.000
-Psx.TextWrapped = true
-Psx.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/Emt0Ay1h))()
-    loadstring(game:HttpGet("https://pastebin.com/raw/kC3dAMvt"))()
-end)
-UICorner_30.Parent = Psx
 -- BUTTONS OTHERS--------------------------------------------------------------------------
 
 keyboard.Name = "keyboard"
@@ -595,23 +579,6 @@ r6anim.MouseButton1Down:connect(function()
       loadstring(game:HttpGet("https://pastebin.com/raw/RmD3qNp7", true))()
 end)
 UICorner_25.Parent = r6anim
-
-
-grandmaster.Name = "grandmaster"
-grandmaster.Parent = scriptinput3
-grandmaster.BackgroundColor3 = Color3.fromRGB(27, 32, 47)
-grandmaster.BorderColor3 = Color3.fromRGB(41, 64, 80)
-grandmaster.Size = UDim2.new(0, 200, 0, 50)
-grandmaster.Font = Enum.Font.FredokaOne
-grandmaster.Text = "[R6] grandmaster"
-grandmaster.TextColor3 = Color3.fromRGB(191, 191, 191)
-grandmaster.TextScaled = true
-grandmaster.TextSize = 14.000
-grandmaster.TextWrapped = true
-grandmaster.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/M0MpRkfs"))()
-end)
-UICorner_29.Parent = grandmaster
 
 
 close.Name = "close"
