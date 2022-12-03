@@ -488,7 +488,7 @@ Psx.TextScaled = true
 Psx.TextSize = 14.000
 Psx.TextWrapped = true
 Psx.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/X7tggEiY))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Emt0Ay1h))()
     loadstring(game:HttpGet("https://pastebin.com/raw/kC3dAMvt"))()
 end)
 UICorner_30.Parent = Psx
