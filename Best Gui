@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Chiezyy's Hub", "Serpent")
-
+Library.Draggable = true
 -- tabs
 local Games = Window:NewTab("Games")
 local Others = Window:NewTab("Others")
