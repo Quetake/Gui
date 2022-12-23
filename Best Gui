@@ -29,15 +29,12 @@ OtherSection:NewButton("Netless", " Fix falling bodies when loading animations "
 end)
 
 OtherSection:NewButton("Keyboard V1", "  ", function()
-    loadstring(game:HttpGet("loadstring(game:HttpGet("https://pastebin.com/raw/jTf7ZtLN"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jTf7ZtLN"))()
 end)
 
 OtherSection:NewButton("Keyboard V2", "  ", function()
-    loadstring(game:HttpGet("loadstring(game:HttpGet("https://pastebin.com/raw/xSsDaMg2"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xSsDaMg2"))()
 end)
 OtherSection:NewButton("Fly Mobile", " Pc Can Use it", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/QZnf0M5D"))()
-end)
-OtherSection:NewButton("Vehicle Fly(Not Working)", "Might Work some games", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/JUqrKZyx"))()
 end)
